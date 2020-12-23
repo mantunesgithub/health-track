@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+    <head>
+        <title>Health-track-Treino montado lista</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="ht_assets/css/ht_style_treino.css"> 
+        <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css "> 
+    </head>
+    <body> 
+        <header class="text-white d-flex">
+            <div class="container d-flex justify-content-between align-items-center">
+                <img src="ht_assets/css/ht_imagens/ht_vp_saude_icon01.png" alt="VP Saúde">
+                <nav>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Home
+                        <li class="list-inline-item">Contato
+                        <a class="list-inline-item" class="btn" href="./ht_portal_02.html">Login</a>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container-fluid">
+            <div class="row">
+                <div class="col-8 container d-flex justify-content-center">
+                    <div class><h4>Plano de Treino</h4></div>   
+                </div>
+                <div class="col-4 container d-flex justify-content-start">
+                    <class="col"><a href="./ht_menu01.html" class="btn btn-primary active btn-sm">Menu</a>
+                </div>
+            </div>
+            <hr>
+            <div class=" form-group row " >
+                <label for="Cliente" class="col-sm-1 col-form-label" >Cliente:</label> 
+                <div class="col-sm-3"> <input type="text" name="id_cliente" id="id_cliente" value="Marcio Antunes" 
+                     class="form-control form-control-sm"> 
+                </div>
+                <label for="personal" class="col-sm-1 col-form-label" >Personal:</label> 
+                <div class="col-sm-2"> <input type="text" name="personal" id="id_personal" value="Larissa Barbosa Antunes" 
+                     class="form-control form-control-sm"> 
+                </div>
+                <label for="data" class="col-sm-1 col-form-label ">Data:</label> 
+                <div class="col-sm-1"> <input type="text" name="id_data" id="id_data"
+                             placeholder="dd/mm/aaaa" class="form-control form-control-sm"> 
+                </div>
+            </div>
+                        
+            <table class="table table-striped table-sm ">
+                <thead class="table-dark">
+                    <tr>
+                       <th>Categoria</th> 
+                       <th>Tipo treino</th> 
+                       <th>Descrição</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td >Musculação</td>
+                        <td><a class="list-inline-item" class="btn" href="./ht_treinos_montado_lista.html">Treino 1</a></td>
+                        <td>Segundas e sexta-feiras</td>
+                    </tr>
+                    <tr>
+                        <td>Musculação</td>
+                        <td><a class="list-inline-item" class="btn" href="./ht_treinos_montado_lista.html">Treino 2</a></td>
+                        <td>Terça e quintas-feiras</td>
+                    </tr>
+                    <tr>
+                        <td>Musculação</td>
+                        <td><a class="list-inline-item" class="btn" href="./ht_treinos_montado_lista.html">Treino 3</a></td>
+                        <td>quarta e domingo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer class="container-fluid justify-content-center " >
+            <div class="text-white">
+                <div class="row">
+                    <ul class="col-sm-4 list-unstyled">
+                        <li><h6>Siga-nos</h6>
+                        <li>Facebook
+                        <li>Instagram
+                    </ul>
+                    <ul class="col-sm-4 list-unstyled">
+                        <li><h6>Sobre VP Saúde</h6>
+                        <li>Nossa História
+                        <li>Contato
+                    </ul>
+                    <ul class="col-sm-4 list-unstyled">
+                        <li><h6>Legal </h6>
+                        <li>Termos e Condições
+                        <li>Politica de Privacidade
+                    </ul>
+                </div>
+            </div>
+        </footer> 
+        <script src="ht_assets/js/ht_js_cadas_simples.js"></script> 
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        
+    </body>
+</html>

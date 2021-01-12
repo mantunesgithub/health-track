@@ -23,6 +23,16 @@
 				<div class="col-3 ">
              	      <div><h4>Análise Solicitação Treino/Perfil</h4></div>   
 			    </div>
+			    <div class="col-2">
+                   	<c:url value="treino" var="link">
+						<c:param name="acao" value="menu"/>
+						<c:param name="cpf_cliente" value="${clienteok.cdCPFCliente}"/>
+					</c:url>
+					<a href="${link}" class="btn btn-primary btn-sm">
+									Menu Personal</a>
+
+               	</div>
+			    
             </div>
   
             <hr>
